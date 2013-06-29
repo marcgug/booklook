@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+	<head>
+		<title>
+			Gugliuzza.com
+		</title>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-2" />
+		<link rel="stylesheet" href="styles/default.css" type="text/css" />
+<style type="text/css">
+#top { background: url("./gug_images/john.jpg") 100% 0 no-repeat #505050; height: 200px; clear: both; }
+</style>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-143059-8']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+	</head>
+		<body>
+		<div id="topOfPage">
+			<a name="topOfPage">&nbsp;</a>
+		</div>
+		<div id="conteiner">
+			<div id="header">
+				<div id="logo">
+					<a href="#"><img src="images/gug.jpg" width="240" height="36" alt="" /></a>
+				</div>
+							</div>
+<div id="bar"><ul><li class="active">&nbsp;&nbsp;Home&nbsp;&nbsp;</li>
+<li><a href="./index.php?page=Contact" accesskey="a">&nbsp;&nbsp;<span class="underline">C</span>ontact</a>&nbsp;&nbsp;</li><li><a href="./index.php?page=Photos" accesskey="a">&nbsp;&nbsp;<span class="underline">P</span>hotos</a>&nbsp;&nbsp;</li><li><a href="./index.php?page=View Guestbook" accesskey="a">&nbsp;&nbsp;<span class="underline">V</span>iew Guestbook</a>&nbsp;&nbsp;</li><li><a href="./index.php?page=Sign Guestbook" accesskey="a">&nbsp;&nbsp;<span class="underline">S</span>ign Guestbook</a>&nbsp;&nbsp;</li><li><a href="/community" accesskey="a">&nbsp;&nbsp;<span class="underline">C</span>ommunity Forums</a>&nbsp;&nbsp;</li></ul></div>
+			<div id="top">
+				<h1>
+					Welcome to <span class="highlight">Gugliuzza.com</span><br />Look around...
+				</h1>
+			</div>
+			<div id="body">
+
+		<h1>
+					Latest News	
+				</h1>
+				<div class="blockDistinct">
+				
+					<h2>
+					 	<b><a href="/community">Community forums now open!</a></b>
+					</h2>
+					<p>
+						Considering that the guestbook now has over 50 entries, I thought people might like a community area in which they can make and respond directly to other Gugliuzza's messages. So if you want to engage in discussion with other Gugliuzza's from all over the globe, check out the brand new <a href="/community">community forums</a>.
+					</p>
+					<br><br>
+					<h2>
+					 	<b>Problems with Guestbook</b>
+					</h2>
+					<p>
+						You may have noticed that the Guestbook feature has been inaccessible for the last few weeks. This is because it was getting <a href="http://en.wikipedia.org/wiki/Spam_in_blogs">comment spam</a>. I believe I have fixed the problem, so please continue to use the guestbook and post comments! If you notice any more problems, please <a href="./index.php?page=Contact">let me know</a>.
+					</p>
+					<br><br>
+					<h2>
+					 	<b>Guestbook!</b>
+					</h2>
+					<p>
+						We've finally implemented a Guestbook feature. We've been getting a number of contact forms from individuals looking for information/connections about the name Gugliuzza. So now,
+						rather than just contact me directly, you can write on the guestbook, and see what other people have to say!<br><br>
+						I think this will be a very interesting feature once visitors start posting. I've started by making an initial post. So, if your interested in the name Gugliuzza, go view and sign
+						the Guestbook! (links at top).
+					</p>
+					<br><br>
+					<h2>
+					 	<b>What is Gugliuzza.com?</b>	
+					</h2>
+					<p>
+						Just a small webpage for the Gugliuzza/Liberatore family in Somers, NY. There's not much here besides the photos. If you'd like an @gugliuzza.com email address, or have any suggestions for the site, just contact me.
+						<br /><br />
+						I just upgraded the photo album, so if you haven't seen it in a while, <a href="./index.php?page=Photos">have a look</a>.
+					</p>
+											</div>
+		
+		
+			</div>
+			<div id="footer" title="Stopka">
+				
+				<p>
+					&copy; Copyright 2013 Gugliuzza.com 
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
+	
