@@ -5,7 +5,7 @@
 
 
 // Decide what search term to use:
-if($_POST["authorname"])
+if($_POST["authorname"]) // a search has been submitted, so use that search term
 	$authorname = $_POST["authorname"];
 else
 	$authorname = "Dahl";
@@ -27,6 +27,8 @@ $result = json_decode($curl_result, true);
 
 // 5. close curl
 curl_close($ch);
+
+print_r($result);
 
 ?>
 <p>Showing results for: <?=$authorname;?>
