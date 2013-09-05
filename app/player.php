@@ -124,7 +124,7 @@ for($i = 0; $i < $MAX_PARAS; $i++)
 			</div>
 			
 			<div class="span5">
-				<a class="btn btn-success" href="#" onclick="readmore()" id="readmorebutton">Read more</a>
+				<a class="btn btn-success" onclick="readmore()" id="readmorebutton">Read more</a>
 				<a class="btn btn-danger" href="index.php?page=player&l1=<?=$genre?>">Next book</a>
 			</div>
 			
