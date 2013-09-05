@@ -71,7 +71,25 @@ for($i = 0; $i < $MAX_PARAS; $i++)
 
 </div>
 
+<div class="row">
 
+	<div class="span2">
+	</div>
+	<div class="span8">
+	
+		<div class="navbar">
+
+			<ul class="breadcrumb">
+
+			  <h4>Now we'll show you some passages from great books. If you like what you're reading, click to reveal it.</h4>
+			</ul>
+
+		</div>
+
+	</div>
+	<div class="span2">
+	</div>
+</div>
 
 <div class="row">
 

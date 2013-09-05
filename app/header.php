@@ -38,7 +38,7 @@
     		<!-- <li <?php if($_GET["page"] == "list") echo " class=\"active\"";?>><a href="index.php?page=list">Show me some books</a></li> -->
     		<li <?php if($_GET["page"] == "start" or !isset($_GET["page"])) echo " class=\"active\"";?>><a href="index.php?page=start">Help me discover a book</a></li>
     	</ul>
-    	<form action="index.php" method="post">
+    	<form action="index.php?page=list" method="post">
     	<input class="input-medium" type="text" name="authorname" placeholder="Search by author">
     	</form>
     </div>

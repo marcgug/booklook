@@ -14,7 +14,7 @@ $GR_SECRET = "8ev2KvCjsThweWcKaM9sMyIIo47i4xWNNztgf9K9c";
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
 
 // max paragraphs to show
-$MAX_PARAS = 6;
+$MAX_PARAS = 40;
 
 // book isbns to use
 
@@ -50,7 +50,7 @@ $ISBNS = array (
 		9780061995897
 	),
 	"mystery" => array (
-		9780061999444, // richard kadrey
+		// 9780061999444, // richard kadrey
 		9780062063205,
 		9780062101181,
 		// 9780062230652,
@@ -75,7 +75,7 @@ $ISBNS = array (
 		9780061737275,
 		//9780061751110, // do not include this ibsn because content is not there
 		9780061753299,
-		9780061797569, // eloisa james
+		//9780061797569, // eloisa james
 		9780061797545,
 		9780061795237,
 		9780061800337,
