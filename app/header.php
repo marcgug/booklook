@@ -33,9 +33,9 @@
     <div class="span2">
     	<!-- sidebar content -->
 		<h1>Book Look</h1>
-    	<p class="lead">Smash up some books yo.</p>
+    	<p class="lead">Discover something great!</p>
     	<ul class="nav nav-pills nav-stacked">
-    		<li <?php if($_GET["page"] == "list") echo " class=\"active\"";?>><a href="index.php?page=list">Show me some books</a></li>
+    		<!-- <li <?php if($_GET["page"] == "list") echo " class=\"active\"";?>><a href="index.php?page=list">Show me some books</a></li> -->
     		<li <?php if($_GET["page"] == "start" or !isset($_GET["page"])) echo " class=\"active\"";?>><a href="index.php?page=start">Help me discover a book</a></li>
     	</ul>
     	<form action="index.php" method="post">

@@ -48,10 +48,26 @@ curl_close($chgr);
 <?php foreach ($result["Product_Group"] as $item): ?>
 
 <div class="row">
-<div class="span12 pagination-centered">
+<div class="span6 pagination-centered">
 <h1>You've been reading...</h1>
 <img src="<?=$item["Products"]["CoverImageURL_Large"];?>" class="img-rounded">
 </div>
+
+<div class="span4 pagination-centered">
+<br /><br /><br /><br /><br /><br /><br /><br />
+
+
+<h2><?=$item["Products"]["Title"];?></h2>
+<h3>By <?=$item["Products"]["Author1"];?></h3>
+<a href="http://www.goodreads.com/book/isbn/<?=$_GET["isbn"]?>"><img src="img/goodreads.png"></a>
+
+<!--<a class="btn btn-success" href="http://www.goodreads.com/book/isbn/<?=$_GET["isbn"]?>" id="readmorebutton">View/purchase this book on Good Reads</a>-->
+
+
+</div>
+
+<div class="span2"></div>
+
 </div>
 
 <?php endforeach; ?>

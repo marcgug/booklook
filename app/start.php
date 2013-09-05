@@ -4,7 +4,7 @@
 ?>
 
 
-<p>What kind of book do you want to discover?</p>
+<p><b>What kind of book do you want to discover?</b></p>
 
 
 <!-- create a bootstrap grid. there are 10 cols in this div, so there should be 10 spans -->

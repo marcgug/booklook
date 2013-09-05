@@ -17,7 +17,7 @@ $genre = $_GET["l1"];
 // get a random ISBN from the appropriate array
 $isbn = $ISBNS[$genre][array_rand($ISBNS[$genre])];
 
-echo $isbn;
+echo "<!-- ".$isbn." --> ";
 
 // get some content for this book
 // make the api call to get content
@@ -45,6 +45,7 @@ $paragraphs = array();
 // start at a paragraph at least 500 chars in - to avoid headings, etc
 $start = strpos($content, "<p", 500);
 
+// create paragraphs
 for($i = 0; $i < $MAX_PARAS; $i++)
 {
 	$end = strpos($content, "</p", $start);
@@ -64,8 +65,8 @@ for($i = 0; $i < $MAX_PARAS; $i++)
 
 	<ul class="breadcrumb">
 
-	  <li><a href="index.php?page=start">Change genre</a></li>
-	  <!-- <li class="active"><?=$CATEGORIES_ARRAY[$_GET["l1"]]?></li> -->
+	  <li><b><a href="index.php?page=start">Choose genre</a></b> > </li>
+	  <li class="active"><?=$CATEGORIES_ARRAY[$_GET["l1"]]?></li>
 	</ul>
 
 </div>
@@ -81,7 +82,7 @@ for($i = 0; $i < $MAX_PARAS; $i++)
 		<div class="row">
 			
 			<div class="span5" align="center">
-				<img data-src="js/holder.js/116x165" alt="">
+				<img src="img/book.png" alt="">
 			</div>
 			
 			<div class="span5">

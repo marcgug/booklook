@@ -8,7 +8,7 @@
 if($_POST["authorname"]) // a search has been submitted, so use that search term
 	$authorname = $_POST["authorname"];
 else
-	$authorname = "Dahl";
+	$authorname = "James";
 
 // make api call:
 
@@ -28,7 +28,7 @@ $result = json_decode($curl_result, true);
 // 5. close curl
 curl_close($ch);
 
-print_r($result);
+//print_r($result);
 
 ?>
 <p>Showing results for: <?=$authorname;?>
@@ -37,11 +37,11 @@ print_r($result);
 <?php foreach ($result["Product_Group"] as $item): ?>
 
 <tr>
-<td><img src="<?=$item["Products"]["CoverImageURL_Medium"];?>" class="img-rounded"></td>
-<td><?=$item["Product_Group_Title"];?><br />
-Format: <?=$item["Products"]["Format"]?><br />
-<a href="index.php?page=view_content&isbn=<?=$item["Products"]["ISBN"]?>">View content</a></td>
-<td><?=$item["Products"]["Author1"];?></td>	
+<td align="center"><img src="<?=$item["Products"]["CoverImageURL_Medium"];?>" class="img-rounded pagination-centered"></td>
+<td><h2><?=$item["Product_Group_Title"];?></h2>
+<h3>By <?=$item["Products"]["Author1"];?></h3>
+<a href="index.php?page=view_content&isbn=<?=$item["Products"]["ISBN"]?>">Read complete book</a></td>
+
 </tr>
 <?php endforeach; ?>
 </table>
