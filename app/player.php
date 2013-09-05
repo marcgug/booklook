@@ -109,7 +109,7 @@ for($i = 0; $i < $MAX_PARAS; $i++)
 				<?php
 				
 				foreach($paragraphs as $i => $p)
-					echo "<p id=\"".$i."\" style=\"display: none\">".htmlspecialchars($p)."</p>";
+					echo "<p id=\"".$i."\" style=\"display: none\">".$p."</p>";
 				
 				
 				?>
